@@ -14,7 +14,8 @@ export default class ListaDeNotas extends Component {
               indice = {index}
               titulo={nota.titulo} 
               texto={nota.texto} 
-              apagarNota={this.props.apagarNota}/>
+              apagarNota={this.props.apagarNota}
+              categoria={nota.categoria}/>
             </li>
           );
         })}
